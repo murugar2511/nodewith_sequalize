@@ -11,7 +11,8 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
 app.get('/',(req,res)=>{
-    res.json({ message :'hellow form api vanakam'})
+
+    res.json({ message :'making new server on feature_3'})
 })
 
 const PORT = process.env.PORT || 8080
